@@ -1,0 +1,7 @@
+mkdocs>=1.2.2
+mkdocs-material
+#mkdocs-static-i18n>=0.18
+mkdocs-macros-plugin
+#mkdocs-minify-plugin
+#pillow
+#cairosvg
