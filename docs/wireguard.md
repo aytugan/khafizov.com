@@ -29,10 +29,28 @@ ip -4 route add 172.16.0.0/16 dev wg3
 
 ```
 
+### Custom routing for tunnels
+
+For custom routing, built-in wireguard routing should be switched off via `Table = off` and AllowedIPs should be configured as `AllowedIPs = 0.0.0.0/1, 128.0.0.0/1`
+
+```
+[Interface]
+Address =  172.16.101.10/30
+PrivateKey = *****=
+ListenPort = 1234
+Table = off
+
+[Peer]
+PublicKey = ****=
+AllowedIPs = 0.0.0.0/1, 128.0.0.0/1
+Endpoint = 11.22.33.44:1234
+PersistentKeepalive = 25
+```
+
 ### Autostart tunnel
 
 ```bash
-systemctl enable wg-quick@wg0.service
+systemctl enable wg-quick@wg1.service
 ```
 
 ### Hot tunnel reload
