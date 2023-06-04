@@ -2,6 +2,7 @@
 
 ## Services
 
-### Email message analyser
+### Email message analysers
 
 - <https://www.gmass.co/analyze>
+- <https://mxtoolbox.com/deliverability>
