@@ -1,8 +1,11 @@
+---
+
 site_name: Tech notes
 
 theme:
   name: material
 
 nav:
-    - Home: index.md
-    - Wireguard: wireguard.md
+  - Home: index.md
+  - E-mail: email.md
+  - Wireguard: wireguard.md
