@@ -8,5 +8,5 @@ theme:
 nav:
   - Home: index.md
   - E-mail: email.md
-  - ProxMox: proxmox.md
+  - Proxmox: proxmox.md
   - Wireguard: wireguard.md

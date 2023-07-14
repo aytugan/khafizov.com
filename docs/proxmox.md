@@ -43,7 +43,7 @@ iface vmbr1 inet static
 
 - Proxmox node IP address must use IP of internal bridge interface
 
-DHCP server setup - https://computingforgeeks.com/using-dnsmasq-dhcp-server-proxmox-vms/
+DHCP server setup - <https://computingforgeeks.com/using-dnsmasq-dhcp-server-proxmox-vms/>
 
 ### Commands
 
