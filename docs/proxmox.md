@@ -1,5 +1,11 @@
 # Proxmox Virtual Environment
 
+### Cluster
+
+Get cluster status - `pvecm status`
+
+Reduce number of nodes requires for quorum, if some nodes in cluster are not available - `pvecm expected 1`
+
 ### Corosync
 
 Corosync is a distributed configuration storage where proxmox stores cluster information
